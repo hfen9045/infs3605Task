@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Hi there, welcome to the pirate world!"
+        android:gravity="center"
+        android:maxWidth="300dp"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/pirate1" />
+
+</RelativeLayout>
