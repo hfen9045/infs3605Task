@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Click here to get to the navigation bar, Profile, level, badges can be found in this navigation part!"
+        android:gravity="center"
+        android:maxWidth="300dp"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginTop="69dp"
+        app:srcCompat="@drawable/rightarrow" />
+
+
+</RelativeLayout>
